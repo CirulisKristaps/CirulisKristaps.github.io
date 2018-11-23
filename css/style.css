@@ -1,0 +1,64 @@
+.main{
+    background-color: orange
+}
+
+.header{
+    background-color: green
+}
+
+.footer{
+    background-color: blue
+}
+
+.mainbox{
+    width: 800px;
+    margin: 0px auto;
+}
+
+img {
+    border: 0px solid #ddd;
+    border-radius: 0px;
+    padding: 5px;
+    width: 25%;
+    height: 25%;
+}
+
+/*p{
+    background-color: #ffffff !important
+}
+
+div{
+    color: orange;
+}
+
+.main{
+    background-color: red
+}
+
+.footer{
+    background-color: #000
+}
+
+#footer{
+    background-color: blue
+}
+
+body{
+    background-color: lightgrey
+    background-image:url('../image/laska.png');
+}
+
+    background-image:url('../image/laska.png');
+        .. nosaka atgriezties vienu direktoriju atpakaļ
+
+
+    !important nosaka galveno prioritāti
+
+    p{color: gray}
+        p - elements
+        color - īpašība
+        gray - vērtība
+
+    background-image:url('../image/laska.png');
+        .. nosaka atgriezties vienu direktoriju atpakaļ
+*/
