@@ -1,64 +1,68 @@
-.main{
-    background-color: orange
+.mainbox, .leftside, .main, .rightside{
+    height: 100%;
 }
 
-.header{
-    background-color: green
-}
-
-.footer{
-    background-color: blue
-}
 
 .mainbox{
+    background-color: coral;
     width: 800px;
     margin: 0px auto;
+    display: table;
+}
+.menu{
+    background-color: brown;
 }
 
-img {
-    border: 0px solid #ddd;
-    border-radius: 0px;
-    padding: 5px;
-    width: 25%;
-    height: 25%;
-}
-
-/*p{
-    background-color: #ffffff !important
-}
-
-div{
-    color: orange;
+.leftside{
+    background-color: darkgreen;
+    width: 100px;
+    float:left;
 }
 
 .main{
-    background-color: red
+    background-color: darkkhaki;
+    width: 600px;
+    float:left;
+}
+
+.rightside{
+    background-color: aliceblue;
+    width: 100px;
+    float: left;
 }
 
 .footer{
-    background-color: #000
+    background-color: cadetblue;
 }
 
-#footer{
-    background-color: blue
+.menu{
+    height: 34px;
+    text-align: center;
 }
 
-body{
-    background-color: lightgrey
-    background-image:url('../image/laska.png');
+.menu>ul>li{
+    display:inline;
+    padding:10px 10px 10px 10px;
+    background-color: darkgreen;
+    position: relative;
+    top:8px;
+    font-family: Tahoma, serif;
+    font-size: 14px;
 }
 
-    background-image:url('../image/laska.png');
-        .. nosaka atgriezties vienu direktoriju atpakaļ
+.menu>ul>li>a{
+    text-decoration: none;
+    color:#fff;
+}
 
+.mgallery{
+    text-align: center;
+}
 
-    !important nosaka galveno prioritāti
+.gallery{
+    max-width: 100px;
+}
 
-    p{color: gray}
-        p - elements
-        color - īpašība
-        gray - vērtība
-
-    background-image:url('../image/laska.png');
-        .. nosaka atgriezties vienu direktoriju atpakaļ
-*/
+.mgallery a{
+    text-decoration: none;
+}
